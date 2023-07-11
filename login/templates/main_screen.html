@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<h1>Welcome to the Main Screen</h1>
+<div class="main">
+    <h2 class="heading">Select one of the actions below:</h2>
+    <hr>
+    <div class="actions">
+        <br>
+        <a class="action" href="{% url 'employees' %}"><span class="material-symbols-rounded">
+            looks_one
+            </span> List all employees</a><br>
+        <a class="action" href="{% url 'employee_add' %}"><span class="material-symbols-rounded">
+            looks_two
+            </span> Register new employee</a><br>
+        <a class="action" href="{% url 'employee_edit' %}"><span class="material-symbols-rounded">
+            looks_3
+            </span> Update employee's information</a><br>
+        <a class="action" href="{% url 'employee_del' %}"><span class="material-symbols-rounded">
+            looks_4
+            </span> Delete employee from database</a>
+    </div>
+</div>
+<div class="home_emp">
+    <a class="submit3" type="" href="{% url 'logout_user' %}">Logout</a>
+</div>
+{% endblock %}

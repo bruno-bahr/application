@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block login %}
+    <h1>Employee Management Module</h1>
+    
+{% endblock %}
+
+{% block content %}
+<div class="logscreen">
+        <img src="{% static 'img\padlock.png' %}" alt="padlock">
+    <form action="{% url 'login' %}" method="POST"> 
+        {% csrf_token %}   
+        <div class="username">
+            <input class="user" type="text" placeholder="Username" name="username">
+        </div>
+        <div class="password">
+            <input class="pass" type="password" placeholder="Password" name="password">
+        </div>
+        <div class="submit">
+            <button class="submit2" type="submit">LOGIN</button>
+        </div>
+    </form>
+</div>
+{% endblock %}
+
+{% block footer %}
+<footer>Developed by Bruno Bahr Solutions</footer>
+<br>
+{% for message in messages %}
+    <div class="info2">
+        {{ message }}
+    </div>
+{% endfor %}
+{% endblock %}

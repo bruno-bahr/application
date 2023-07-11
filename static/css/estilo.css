@@ -1,0 +1,458 @@
+body{
+    background-color: rgb(90, 38, 130);
+    color: #f7f3f3;
+    text-align: center;
+}
+
+.wrapper{
+    position: relative; 
+    min-height: 100vh;
+}
+
+.content{
+    padding: 20px;
+}
+
+p{
+    max-width: 100vw;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer{
+    position: absolute;
+    font-family: cursive;
+    margin-top: -5px;
+    font-size: small;
+    font-weight: 200;
+    width: 100%;
+    height: 1.5rem;
+}
+
+.logscreen{
+    background-color: rgba(69, 24, 103, 0.888);
+    margin: auto;
+    margin-top: 50px;
+    height: 388px;
+    width: 340px;
+    border: 3px solid rgb(27, 4, 44); 
+    border-radius: 5px;
+}
+
+.username{
+    height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.user{
+    font-size: 1rem;
+    text-align: center;
+    height: 32px;
+    width: 215px;
+    border-radius: 4px;
+}
+
+.pass{
+    font-size: 1rem;
+    text-align: center;
+    height: 32px;
+    width: 215px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+
+.submit{
+    position: relative;
+    display: flex;
+    background-color: rgb(97, 30, 159);
+    font-size: 1.1rem;
+    font-weight: 600;
+    height: 44px;
+    width: 234px;
+    margin: auto;
+    margin-top: 25px;
+    border: none;
+    box-shadow: 2px 4px rgb(119, 50, 172);
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.submit2{
+    font-size: 1.1rem;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-decoration: none;
+    color: #ffffff;
+    background-color:rgb(97, 30, 159);
+    border: none;
+    border-radius: 15px;
+}
+
+.submit a{
+    position: relative;
+    display: flex;
+    font-size: 1.15rem;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color:rgb(97, 30, 159);
+    border: none;
+    border-radius: 15px;
+}
+
+.submit2:hover{
+    background-color: rgb(59, 14, 94);
+    transition-duration: 0.4s;
+}
+
+.submit:hover{
+    background-color: rgb(59, 14, 94);
+    transition-duration: 0.4s;
+}
+
+.submit:active{
+    translate: 3px 3px;
+    box-shadow: 0 2px rgb(59, 14, 94);
+}
+
+.logscreen img{
+    margin-top: 20px;
+    height: 45%;
+    opacity: 0.12;
+    border-radius: 3px;
+}
+
+.home a{
+    display: flex;
+    margin-top: -50px;
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: auto;   
+    margin-top: 18px;
+    margin-bottom: 15px;
+    font-size: 1.05em;
+    font-family: sans-serif;
+    min-width: 500px;
+    box-shadow: 0 0 20px 15px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #3e0755;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 15px 25px;
+    text-align: left;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #551d6d;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 3px solid rgb(65, 8, 87);
+}
+
+.styled-table tbody tr:hover {
+    font-weight: 600;
+    color: #efe259;
+}
+
+.home_emp{
+    position: relative;
+    display: flex;
+    background-color:#45075f;
+    height: 25px;
+    width: 60px;
+    justify-content: center; 
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 2px 4px 0 0.5px #2c053d;
+}
+
+.home_emp a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-top: 2px;
+}
+
+.submit3{
+    font-size: 1.2rem;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    text-decoration: none;
+    color: #fff;
+}
+
+.home_emp:hover{
+    background-color: #551d6d;
+    transition-duration: 0.4s;
+}
+
+.home_emp:active{
+    translate: 3px 3px;
+    box-shadow: 1px 1px #4c1464;
+}
+
+.main{
+    background-color: #4a0966;
+    height: 410px;
+    width: 390px;
+    margin: auto;
+    margin-bottom: 15px;    
+    padding: 5px;
+    border: solid 2px #2c053d;
+    border-radius: 6px;
+    box-shadow: 2px 2px 20px 3px rgba(0, 0, 0, 0.219);
+}
+
+.actions{
+    position: relative;
+    color: #fff;
+    text-align: left;
+    background-color: #43095c;
+    width: 88%;
+    height: 70%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.235);
+}
+
+.action{
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: none;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 52px;
+    line-height: 52px;
+}
+
+.action:hover{
+    cursor: default;
+}
+
+.action span:hover{
+    font-size: 2.4rem;
+    font-weight: 900;   
+    cursor: pointer;
+
+}
+
+.action span{
+    position: absolute;
+    font-weight: 400;
+    font-size: 2.3rem;
+    color: #ffffffec;
+    margin-left: -38px;
+    margin-top: 7.5px;
+}
+
+.btn{
+    position: relative;
+    display: flex;
+    height: 46px;
+    width: 100px;
+    justify-content: center; 
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.btn_sub a{
+    background-color: rgb(211, 211, 211);
+    font-size: 1.1rem;
+    margin-top: 6px;
+    width: 82px;
+    height: 46px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.235);
+}
+
+.btn_sub:hover{
+    background-color: rgb(229, 227, 227);
+    transition: 0.4s 0.1s;
+}
+
+.btn_sub:active{
+    translate: 3px 3px;
+}
+
+.emp_edit .btn_sub1{
+    background-color: rgb(211, 211, 211);
+    font-size: 1.1rem;
+    margin-top: 52px;
+    margin-left: 230px;
+    width: 90px;
+    height: 32px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.235);
+}
+
+.btn_sub1:hover{
+    background-color: rgb(229, 227, 227);
+    transition: 0.4s 0.1s;
+}
+
+.btn_sub1:active{
+    translate: 3px 3px;
+}
+
+.forms{
+    background-color: rgba(69, 24, 103, 0.888);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    height: 420px;
+    width: 400px;
+    border: 3px solid rgb(27, 4, 44); 
+    border-radius: 5px;
+}   
+
+form p{
+    font-size: 1.45rem;
+}
+
+form p input{
+    height: 25px;
+    width:100%;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+
+.emp_edit .btn_sub_ok{
+    position: relative;
+    background-color: rgba(211, 211, 211, 0.893);
+    font-size: 1.05rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    margin-right: 210px;
+    width: 60px;
+    height: 2.5rem;
+    border: solid 2px;
+    border-radius: 0 6px 6px 0px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.235);
+}
+
+.emp_edit a{
+    position: absolute;
+    display: flex;
+    color: #000000;
+    background-color: rgba(211, 211, 211, 0.912);
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 6px;
+    width: 80px;
+    height: 31px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.235);
+}
+
+.btn_sub_ok:hover{
+    background-color: rgb(234, 230, 230);
+    transition: 0.4s 0.1s;
+}
+
+.btn_sub_ok:active{
+    translate: 3px 3px;
+}
+
+.emp_edit{
+    background-color: #4a0966;
+    width: 550px;
+    margin: auto;
+    min-height: 250px;
+    margin-top: 18px;
+    padding: 8px;
+    border: solid 3px #270337;
+}
+
+.emp_edit input{
+    position: absolute;
+    height: 1.95rem;
+    width: 50px;
+    font-size: 1.5rem;
+    margin-left: 217px;
+    text-align: center;
+    margin-top: 3.8px;
+}
+
+.emp_edit p{
+    font-size: 1.5rem;
+}
+
+.emp_edit .btn{
+    position: relative;
+    margin: auto;
+}
+
+.input_edit{
+    position: relative;
+    display: flex;
+}
+
+.info2{
+    position: relative;
+    display: flex;
+    font-size: 1.1rem;
+    color: rgb(214, 239, 237);
+    background-color: rgb(160, 120, 201);
+    height: 40px;
+    width: 342px;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: 5s;
+}
+
+.info2:hover{
+    transition: all 3s ease-in-out; 
+    opacity: 0;
+
+}
+
+
+

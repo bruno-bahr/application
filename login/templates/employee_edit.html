@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container">
+        <h1>Update Employees</h1>
+        <hr>
+        
+        <form action="{% url 'employee_edit' %}" method="get" class="emp_edit">
+            <p>Enter employee id to proceed</p>
+            {% csrf_token %}
+            <div class="input_edit">
+                <input type="text" name="employee_pk" value="{{ request.GET.employee_pk }}" autocomplete="off">
+                    <button class="btn_sub_ok" type="submit">Ok</button>
+                    <a class="btn_sub1" type="submit" href="{% url 'main_screen' %}">Cancel</a><br>
+            </div>
+            {% if employee.id %}
+            <br><br>
+                <p>Employee with id {{ employee.id }} identified</p>
+                <p>Click continue to update</p>
+            <div class="btn">
+                <a class="btn_sub" type="submit" href="{% url 'employee_update' employee_pk=employee.id %}">Continue</a>
+            </div>
+            {% else  %}  
+                <br><br>
+                <body onload="alt()"></body>    
+                <p>Enter a valid id</p>
+            {% endif %}
+            
+        </form>
+
+        
+    </div>
+    
+{% endblock %}
