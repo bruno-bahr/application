@@ -38,7 +38,7 @@ with proper validation.
 
 ![update_correct_id](https://github.com/bruno-bahr/application/assets/119742729/c13de2f2-806a-47d9-bd14-d89ee8eef4f5)
 
-- After clicking on the continue button, the user is redirected to update area where they can alter the information they want.
+- After clicking on the continue button, the user is redirected to the update area where they can alter the information they want.
 
 ![emp_update](https://github.com/bruno-bahr/application/assets/119742729/e75ec100-3047-4bab-9966-7f8fe47764af)
 
@@ -54,14 +54,14 @@ with proper validation.
 
 ![del_correct_id](https://github.com/bruno-bahr/application/assets/119742729/ae20c744-13bb-4f27-baa0-5b3ad3f6e924)
 
-- By clicking on the continue button, the user is redirected to delete area where they can remove the employee from the database.
+- By clicking on the continue button, the user is redirected to the delete area where they can remove the employee from the database.
 
 ![del_employee](https://github.com/bruno-bahr/application/assets/119742729/cc63ba40-14a1-4b6a-99a0-5a34a4bee7ee)
 
-- All screen contain a home button, if the user wishes to return to the main screen.
+- All screens contain a home button, in case the user wishes to return to the main screen.
 
 - To finish the session, the user must click on the button logout found on the the main screen.
-- This the message they will get after logging out.
+- This the message one gets after logging out.
 
 ![logout](https://github.com/bruno-bahr/application/assets/119742729/c48fb199-0fe8-4d15-b0e0-d6448fda2168)
 
