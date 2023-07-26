@@ -38,13 +38,14 @@ def main_screen(request):
     
 
 def employees(request):
-    employee = Employee.objects.all()
+    if request.user.is_authenticated:
+        employee = Employee.objects.all()
 
-    context = {
-        'employee': employee
-    }
+        context = {
+            'employee': employee
+        }
 
-    return render(request, 'employees.html', context)
+        return render(request, 'employees.html', context)
 
 def employee_add(request):
     form = EmployeeForm(request.POST or None)
